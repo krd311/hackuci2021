@@ -13,16 +13,6 @@
         font-family:Source Sans Pro
     }
 
-    .button{
-        background-color: #0066ff; /* Green */
-        color: white;
-        padding: 10px 20px;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
-        border-radius:7px;
-    }
-
     h1{
       text-align: center;
     }
@@ -42,12 +32,33 @@
     width: 50%
   }
 
-  .caption{
+  .picture{
       position: absolute;
-      top: 50%;
+      top: 15%;
+      transform: translateY(-15%);
       left: 50%;
+      transform: translateX(-50%)
   }
-  
+
+  .getStarted{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%)
+
+  }
+
+  .button{
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    color:black;
+    border-radius:7px;
+  }
+
 </style>
 
 <body>
@@ -55,8 +66,13 @@
     <h1 style= "font-family:Source Sans Pro">ZotMarket</h1>
   </div>
   <hr>
-  <div id=pic class="center">
+  <div id=pic class="picture">
     <img src="media/pattis.jpg" alt="issa picture" width="504" height="314">
+  </div>
+  <div class="getStarted">
     <figcaption> the one line legend</figcaption>
+  </div>
+  <div id=getStarted class="getStarted">
+    <button type="caption" class="button">Get Started</button>
   </div>
 </body>
