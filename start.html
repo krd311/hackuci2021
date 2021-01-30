@@ -3,12 +3,13 @@
 </style>
 
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
   <meta charset="UTF-8">
   <title>[Website title]</title>
 </head>
 
 <style>
-    .fonts{
+    body{
         font-family:Source Sans Pro
     }
 
@@ -32,15 +33,30 @@
   background: white;
   padding: 10px;
 }
+
+  .center{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+  }
+
+  .caption{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+  }
+  
 </style>
 
 <body>
-  <div id= title class= fonts>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+  <div id= title class="center">
     <h1 style= "font-family:Source Sans Pro">ZotMarket</h1>
-    <hr>
   </div>
-  <div id=pic>
-    <img source="media/pattis.jpg" alt="issa picture">
-  <div>
+  <hr>
+  <div id=pic class="center">
+    <img src="media/pattis.jpg" alt="issa picture" width="504" height="314">
+    <figcaption> the one line legend</figcaption>
+  </div>
 </body>
