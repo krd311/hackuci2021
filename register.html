@@ -2,20 +2,74 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>ZotMarket Registration</title>
+	<title>PeterPop Registration</title>
 </head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+<style>
+h1 {
+	font-family: 'Oxygen', sans-serif;
+	color: #7779ff;
+	font-size: 48px;
+	text-align: center;
+}
+label {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 24px;
+	display: inline-block;
+	text-align: left;
+}
+input {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 22px;
+	display: inline-block;
+	text-align: left;
+}
+button {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 40px;
+	display: inline-block;
+}
+.boxed {
+	background-color: white;
+	width: 750px;
+	border-radius: 30%;
+	text-align: center;
+	display: inline-block;
+}
+
+</style>
+
+
 <body>
+<div style="text-align:center;">
+<div class="boxed">
+	<h1>Register For PeterPop Here!</h1>
+</div><br><br>
+</div>
 
-	<h1>Register Here</h1>
+	<body style="background: url(https://webgradients.com/public/webgradients_png/002%20Night%20Fade.png)">
 
-	<label for="firstname"><b>First Name</b></label>
-	<input type="text" placeholder="Enter Your First Name" name="firstname" id="firstname" required>
+	<div style="text-align:center;">
+	<label for="firstname"><b>First Name</b></label><br>
+	<input type="text" placeholder="Enter Your First Name" name="firstname" id="firstname" required><br></input><br>
 
-	<br>
+	<label for="lastname"><b>Last Name</b></label><br>
+	<input type="text" placeholder="Enter Your Last Name" name="lastname" id="lastname" required><br><br>
 
-	<label for="lastname"><b>Last Name</b></label>
-	<input type="text" placeholder="Enter Your Last Name" name="lastname" id="lastname" required>
-	
+	<label for="UCIemail"><b>UCI Email</b></label><br>
+	<input type="text" placeholder="Enter Your UCI Email" name="email" id="email" required><br><br>
+
+	<label for="uname"><b>Username</b></label><br>
+	<input type="text" placeholder="Enter Your Username" name="uname" id="uname" required><br><br>
+
+	<label for="pwsd"><b>Password</b></label><br>
+	<input type="text" placeholder="Enter Your Password" name="pswd" id="pswd" required><br><br>
+
+	<input type="checkbox" id="check" name="check" value="cbox" required>
+	<label for="check">I agree to the terms and conditions*</label><br><br>
+
+	<button type="button">Create Account</button><br>
 
 
 </body>
