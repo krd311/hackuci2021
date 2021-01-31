@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 <style>
 * {box-sizing: border-box;}
-@font-face { font-family: Fredoka One; src: url(FredokaOne-Regular.ttf); }
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -51,12 +52,13 @@ body {
 }
 
 .searchbar input[type=text] {
-  float: center;
+  float: right;
   padding: 6px;
   margin-top: 8px;
   margin-right: 16px;
   border: none;
   font-size: 17px;
+  text-align: center;
 }
 .sorted {
   float : left;
@@ -199,8 +201,10 @@ body {
 <div class = "searchbar">
 	<input type="text" placeholder="Search..">
     </div>
+<!--BUTTONS-->
   <p align = "center">
-    <button class="button1"><span>Textbooks</span></button> <button class="button1"><span>Furniture</span></button> <button class="button1"><span>Apparel</span></button><button class="button1"><span>Appliances</span></button>
+<button class="button1" onclick = "document.location='https://misrail35.wixsite.com/mysite/textbooks'"><span>Textbooks</span></button> <button class="button1" onclick = "document.location='https://misrail35.wixsite.com/mysite/furniture'"><span>Furniture</span></button> <button class="button1" onclick = "document.location='https://misrail35.wixsite.com/mysite/apparel'"><span>Apparel</span></button><button class="button1" onclick = "document.location='https://misrail35.wixsite.com/mysite/appliance'"><span>Appliances</span></button>
+	  
 </p>
 <!--SORTING BAR OPTION-->
 <div class = sorted>
